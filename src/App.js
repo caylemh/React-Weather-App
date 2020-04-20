@@ -58,7 +58,7 @@ const dateBuilder = (d) => {
               <div className='temp'>
                 {Math.round(weather.main.temp)}°C
               </div>
-              <div className='weather'>{weather.weather[0].main.toUpperCase()}</div>
+              <div className='weather'>{weather.weather[0].description.toUpperCase()}</div>
             </div>
           </div>
         ) : ('')}

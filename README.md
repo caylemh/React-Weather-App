@@ -1,6 +1,9 @@
 # Weather App
 - A simple but styled (transitions, custom backgrounds, etc) Weather App created with React using the [Open Weather API](https://openweathermap.org/api) API. Enjoy!
 
+## Some Screenshots:
+![Johannesburg Weather](/src/assets/1.jpg) ![Johannesburg Weather](/src/assets/2.jpg)
+
 -------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
