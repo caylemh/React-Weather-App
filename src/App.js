@@ -60,6 +60,12 @@ const dateBuilder = (d) => {
               </div>
               <div className='weather'>{weather.weather[0].description.toUpperCase()}</div>
             </div>
+            <div className='sources-box'>
+              <div className='sources'>
+                Data supplied by 
+                <a href='http://openweathermap.org' target='_blank'> Openweathermap.org</a>
+              </div>
+            </div>
           </div>
         ) : ('')}
       </main>
